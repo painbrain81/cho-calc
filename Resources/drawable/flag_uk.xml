@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="16dp"
+    android:viewportWidth="24"
+    android:viewportHeight="16">
+    
+    <!-- Bandiera inglese: Union Jack semplificato -->
+    <!-- Sfondo blu -->
+    <path
+        android:fillColor="#012169"
+        android:pathData="M0,0L24,0L24,16L0,16Z" />
+    
+    <!-- Croce bianca di San Giorgio -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,7L24,7L24,9L0,9Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M11,0L13,0L13,16L11,16Z" />
+    
+    <!-- Croce rossa di San Giorgio -->
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M0,7.5L24,7.5L24,8.5L0,8.5Z" />
+    
+    <path
+        android:fillColor="#C8102E"
+        android:pathData="M11.5,0L12.5,0L12.5,16L11.5,16Z" />
+    
+    <!-- Diagonali di Sant'Andrea (semplificate) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M2,2L22,14M22,2L2,14" />
+    
+    <path
+        android:strokeColor="#C8102E"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M2,2L22,14M22,2L2,14" />
+    
+    <!-- Bordo -->
+    <path
+        android:strokeColor="#CCCCCC"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M0,0L24,0L24,16L0,16Z" />
+        
+</vector>

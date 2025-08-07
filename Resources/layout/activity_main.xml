@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_standard"
+    android:layout_marginTop="40dp"
+    android:gravity="top"
+    android:background="@color/background_light">
+
+    <!-- Title and Flag row -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_large">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            style="@style/TitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/title_calcolatore" />
+
+        <ImageView
+            android:id="@+id/imageViewFlag"
+            android:layout_width="32dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/flag_italy"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:padding="4dp" />
+
+    </RelativeLayout>
+
+    <!-- Carbo row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_standard"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewCarboLabel"
+                style="@style/LabelText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_carbo"
+                android:layout_marginBottom="@dimen/padding_extra_small" />
+
+            <EditText
+                android:id="@+id/editTextCarbo"
+                style="@style/CustomEditText"
+                android:layout_width="match_parent"
+                android:hint="@string/hint_carbo"
+                android:importantForAutofill="no" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewPer100g"
+            style="@style/HelperText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_ogni_100_grammi"
+            android:layout_marginStart="@dimen/margin_small" />
+
+    </LinearLayout>
+
+    <!-- Peso row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="32dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewPesoLabel"
+                style="@style/LabelText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_peso"
+                android:layout_marginBottom="@dimen/padding_extra_small" />
+
+            <EditText
+                android:id="@+id/editTextPeso"
+                style="@style/CustomEditText"
+                android:layout_width="match_parent"
+                android:hint="@string/hint_peso"
+                android:importantForAutofill="no" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/HelperText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g"
+            android:layout_marginStart="@dimen/margin_small" />
+
+    </LinearLayout>
+
+    <!-- Result row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/result_background"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewResultLabel"
+                style="@style/LabelText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_resultado"
+                android:textColor="@color/primary_green"
+                android:layout_marginBottom="@dimen/padding_extra_small" />
+
+            <TextView
+                android:id="@+id/textViewResult"
+                style="@style/ResultText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_cho"
+            android:textSize="18sp"
+            android:textColor="@color/primary_green"
+            android:textStyle="bold"
+            android:layout_marginStart="@dimen/margin_small"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <!-- Informative text at bottom -->
+    <TextView
+        android:id="@+id/textViewFormula"
+        style="@style/HelperText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/formula"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:textStyle="italic" />
+
+    <!-- Author signature at the bottom -->
+    <TextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/author_signature"
+        android:textSize="10sp"
+        android:textColor="@color/text_gray"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_standard"
+        android:textStyle="italic"
+        android:alpha="0.7" />
+
+</LinearLayout>

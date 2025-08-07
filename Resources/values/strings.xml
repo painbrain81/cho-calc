@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CHO Calc</string>
+    <string name="title_calcolatore">Calcolatore CHO</string>
+    <string name="label_carbo">Carboidrati da tabella nutrizionale</string>
+    <string name="label_ogni_100_grammi">ogni 100 grammi</string>
+    <string name="label_peso">Peso</string>
+    <string name="label_resultado">Risultato</string>
+    <string name="label_cho">CHO</string>
+    <string name="hint_carbo">Inserisci carboidrati</string>
+    <string name="hint_peso">Inserisci peso</string>
+    <string name="error_value_incorrect">valore non corretto</string>
+    <string name="formula">Formula: (Carboidrati x Peso) : 100</string>
+    <string name="author_signature">creato da Matteo Gabriele</string>
+</resources>

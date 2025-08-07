@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Main wheat stem -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M12,22L12,6" 
+        android:strokeWidth="1.5"
+        android:strokeColor="#8D6E63"
+        android:strokeLineCap="round" />
+    
+    <!-- Top wheat grain (pointed) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M12,6L10.5,8L13.5,8Z" />
+    
+    <!-- Upper wheat grains (left side) -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M8,8.5C8,8 8.5,7.5 9,7.5C10,7.5 11,8 11.5,8.5C11,9 10,9.5 9,9.5C8.5,9.5 8,9 8,8.5Z" />
+    
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M7.5,10.5C7.5,10 8,9.5 8.5,9.5C9.5,9.5 10.5,10 11,10.5C10.5,11 9.5,11.5 8.5,11.5C8,11.5 7.5,11 7.5,10.5Z" />
+    
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M8,12.5C8,12 8.5,11.5 9,11.5C10,11.5 11,12 11.5,12.5C11,13 10,13.5 9,13.5C8.5,13.5 8,13 8,12.5Z" />
+    
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M8.5,14.5C8.5,14 9,13.5 9.5,13.5C10.5,13.5 11.5,14 12,14.5C11.5,15 10.5,15.5 9.5,15.5C9,15.5 8.5,15 8.5,14.5Z" />
+    
+    <!-- Upper wheat grains (right side) -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M16,8.5C16,8 15.5,7.5 15,7.5C14,7.5 13,8 12.5,8.5C13,9 14,9.5 15,9.5C15.5,9.5 16,9 16,8.5Z" />
+    
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M16.5,10.5C16.5,10 16,9.5 15.5,9.5C14.5,9.5 13.5,10 13,10.5C13.5,11 14.5,11.5 15.5,11.5C16,11.5 16.5,11 16.5,10.5Z" />
+    
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M16,12.5C16,12 15.5,11.5 15,11.5C14,11.5 13,12 12.5,12.5C13,13 14,13.5 15,13.5C15.5,13.5 16,13 16,12.5Z" />
+    
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M15.5,14.5C15.5,14 15,13.5 14.5,13.5C13.5,13.5 12.5,14 12,14.5C12.5,15 13.5,15.5 14.5,15.5C15,15.5 15.5,15 15.5,14.5Z" />
+    
+    <!-- Middle section grains (left side) -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M9,16.5C9,16 9.5,15.5 10,15.5C11,15.5 11.5,16 12,16.5C11.5,17 11,17.5 10,17.5C9.5,17.5 9,17 9,16.5Z" />
+    
+    <!-- Middle section grains (right side) -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M15,16.5C15,16 14.5,15.5 14,15.5C13,15.5 12.5,16 12,16.5C12.5,17 13,17.5 14,17.5C14.5,17.5 15,17 15,16.5Z" />
+    
+    <!-- Small awns (bristles) -->
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M9,7.5L7,6M15,7.5L17,6M8.5,9.5L6.5,8.5M15.5,9.5L17.5,8.5M9,11.5L7,10.5M15,11.5L17,10.5M9.5,13.5L7.5,12.5M14.5,13.5L16.5,12.5M10,15.5L8,14.5M14,15.5L16,14.5"
+        android:strokeWidth="0.8"
+        android:strokeColor="#FF8F00"
+        android:strokeLineCap="round" />
+        
+</vector>

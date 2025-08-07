@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFF8DC"
+        android:pathData="M0,0h108v108h-108z" />
+    
+    <!-- Centered wheat icon (scaled up) -->
+    <group android:translateX="32" android:translateY="32">
+        
+        <!-- Main wheat stem -->
+        <path
+            android:fillColor="#8D6E63"
+            android:pathData="M22,44L22,12" 
+            android:strokeWidth="3"
+            android:strokeColor="#8D6E63"
+            android:strokeLineCap="round" />
+        
+        <!-- Top wheat grain (pointed) -->
+        <path
+            android:fillColor="#FFC107"
+            android:pathData="M22,12L19,16L25,16Z" />
+        
+        <!-- Upper wheat grains (left side) -->
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M14,17C14,16 15,15 16,15C18,15 20,16 21,17C20,18 18,19 16,19C15,19 14,18 14,17Z" />
+        
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M13,21C13,20 14,19 15,19C17,19 19,20 20,21C19,22 17,23 15,23C14,23 13,22 13,21Z" />
+        
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M14,25C14,24 15,23 16,23C18,23 20,24 21,25C20,26 18,27 16,27C15,27 14,26 14,25Z" />
+        
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M15,29C15,28 16,27 17,27C19,27 21,28 22,29C21,30 19,31 17,31C16,31 15,30 15,29Z" />
+        
+        <!-- Upper wheat grains (right side) -->
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M30,17C30,16 29,15 28,15C26,15 24,16 23,17C24,18 26,19 28,19C29,19 30,18 30,17Z" />
+        
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M31,21C31,20 30,19 29,19C27,19 25,20 24,21C25,22 27,23 29,23C30,23 31,22 31,21Z" />
+        
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M30,25C30,24 29,23 28,23C26,23 24,24 23,25C24,26 26,27 28,27C29,27 30,26 30,25Z" />
+        
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M29,29C29,28 28,27 27,27C25,27 23,28 22,29C23,30 25,31 27,31C28,31 29,30 29,29Z" />
+        
+        <!-- Middle section grains -->
+        <path
+            android:fillColor="#FFA000"
+            android:pathData="M16,33C16,32 17,31 18,31C20,31 21,32 22,33C21,34 20,35 18,35C17,35 16,34 16,33Z" />
+        
+        <path
+            android:fillColor="#FFA000"
+            android:pathData="M28,33C28,32 27,31 26,31C24,31 23,32 22,33C23,34 24,35 26,35C27,35 28,34 28,33Z" />
+        
+        <!-- Lower section grains -->
+        <path
+            android:fillColor="#FF8F00"
+            android:pathData="M17,37C17,36 18,35 19,35C20,35 21,36 22,37C21,38 20,39 19,39C18,39 17,38 17,37Z" />
+        
+        <path
+            android:fillColor="#FF8F00"
+            android:pathData="M27,37C27,36 26,35 25,35C24,35 23,36 22,37C23,38 24,39 25,39C26,39 27,38 27,37Z" />
+        
+    </group>
+    
+</vector>

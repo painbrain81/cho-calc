@@ -4,26 +4,26 @@ Un'app Android elegante e funzionale per calcolare i carboidrati nei cibi, svilu
 
 **Creato da Matteo Gabriele**
 
-## ?? Descrizione
+## Descrizione
 
 CHO Calc è un'applicazione bilingue (Italiano/Inglese) semplice e intuitiva che permette di calcolare rapidamente la quantità di carboidrati contenuti in una porzione di cibo, basandosi sui valori nutrizionali per 100 grammi.
 
-## ? Caratteristiche
+## Caratteristiche
 
-- **?? Design Elegante**: Interfaccia moderna con icona personalizzata della spiga di grano
-- **? Calcolo in Tempo Reale**: I risultati si aggiornano automaticamente durante la digitazione
-- **?? Bilingue**: Supporto completo per Italiano e Inglese con cambio lingua tramite bandiera
-- **?? Validazione Intelligente**: 
+- **Design Elegante**: Interfaccia moderna con icona personalizzata della spiga di grano
+- **Calcolo in Tempo Reale**: I risultati si aggiornano automaticamente durante la digitazione
+- **Bilingue**: Supporto completo per Italiano e Inglese con cambio lingua tramite bandiera
+- **Validazione Intelligente**: 
   - Solo input numerici consentiti
   - Controllo valore massimo (100g per 100g)
   - Feedback visuale per errori
-- **?? UI Professionale**: 
+- **UI Professionale**: 
   - Colori coordinati (verde e oro)
   - Layout responsive e centrato
   - Angoli arrotondati e ombre
-- **?? Risultati Chiari**: Visualizzazione senza decimali per maggiore semplicità
+- **Risultati Chiari**: Visualizzazione senza decimali per maggiore semplicità
 
-## ?? Funzionalità
+## Funzionalità
 
 ### Calcolo Carboidrati
 - **Formula**: `(Carboidrati per 100g × Peso in grammi) ÷ 100`
@@ -43,7 +43,7 @@ CHO Calc è un'applicazione bilingue (Italiano/Inglese) semplice e intuitiva che 
 - ? Evidenziazione in rosso per valori > 100
 - ? Messaggio "valore non corretto" / "incorrect value" per input non validi
 
-## ??? Tecnologie
+## Tecnologie
 
 - **Framework**: .NET 9
 - **Platform**: Android (API Level 21+)
@@ -51,7 +51,7 @@ CHO Calc è un'applicazione bilingue (Italiano/Inglese) semplice e intuitiva che 
 - **UI**: Native Android XML Layouts
 - **Architecture**: Activity-based con cambio lingua dinamico
 
-## ?? Struttura Progetto
+## Struttura Progetto
 
 ```
 calcolatore-carboidrati/
@@ -77,7 +77,7 @@ calcolatore-carboidrati/
 ??? calcolatore carboidrati.csproj # File progetto
 ```
 
-## ?? Build e Installazione
+## Build e Installazione
 
 ### Prerequisiti
 - Visual Studio 2022 o Visual Studio Code
@@ -103,13 +103,13 @@ L'APK firmato viene generato in:
 bin/Release/net9.0-android/com.chocalc.app-Signed.apk
 ```
 
-## ?? Installazione
+## Installazione
 
 1. Scarica l'APK dalla cartella `bin/Release/net9.0-android/`
 2. Abilita "Origini sconosciute" nelle impostazioni Android
 3. Installa l'APK sul dispositivo
 
-## ?? Screenshots
+## Screenshots
 
 L'app presenta:
 - **???? Italiano**: Titolo "Calcolatore CHO" con firma "creato da Matteo Gabriele"
@@ -120,7 +120,7 @@ L'app presenta:
 - Risultato in tempo reale con etichetta "CHO"
 - Formula di calcolo mostrata in entrambe le lingue
 
-## ?? Contribuire
+## Contribuire
 
 1. Fork del repository
 2. Crea un branch per la tua feature (`git checkout -b feature/nuova-funzionalita`)
@@ -128,18 +128,18 @@ L'app presenta:
 4. Push al branch (`git push origin feature/nuova-funzionalita`)
 5. Crea una Pull Request
 
-## ?? Licenza
+## Licenza
 
 Questo progetto è rilasciato sotto licenza MIT. Vedi il file `LICENSE` per i dettagli.
 
-## ??? Versioni
+## Versioni
 
 - **v1.0**: Versione iniziale con calcolo base
 - **v2.0**: Aggiunta validazione e design migliorato
 - **v3.0**: Nuova icona spiga di grano e ottimizzazioni UI
 - **v4.0**: Supporto bilingue IT/EN e firma autore
 
-## ?? Contatti
+## Contatti
 
 **Autore**: Matteo Gabriele
 
